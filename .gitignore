@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+*.pyc
+
+document_automation/ABV2/
+
+~$*.xlsx
