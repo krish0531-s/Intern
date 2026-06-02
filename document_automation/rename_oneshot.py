@@ -97,6 +97,7 @@ def create_excel(client_folder, documents):
         "Particulars",
         "Folder",
         "File From Dump",
+        "Name(Optional)",
         "Status",
     ]
 
@@ -106,7 +107,7 @@ def create_excel(client_folder, documents):
     for row_num, doc in enumerate(documents, start=2):
         ws.cell(row=row_num, column=1, value=doc["document_type"])
         ws.cell(row=row_num, column=2, value=doc["folder"])
-        ws.cell(row=row_num, column=4, value="Pending")
+        ws.cell(row=row_num, column=5, value="Pending")
 
     for column in ws.columns:
         max_length = 0
@@ -215,8 +216,9 @@ def process_documents(client_folder):
         particulars = ws[f"A{row}"].value
         folder_name = ws[f"B{row}"].value
         selected_file = ws[f"C{row}"].value
+        custom_name= ws[f"D{row}"].value
 
-        status_cell = ws[f"D{row}"]
+        status_cell = ws[f"E{row}"]
 
         if not selected_file:
             status_cell.value = "Pending"
@@ -233,10 +235,16 @@ def process_documents(client_folder):
 
             extension = source_file.suffix
 
+            particulars_clean= str(particulars).strip()
+            if custom_name and particulars:
+                final_name= (f"{str(custom_name).strip()}_"
+                            f"{particulars_clean}")
+            else:
+                final_name = particulars_clean
             destination_file = (
                 client_folder
                 / str(folder_name).strip()
-                / f"{str(particulars).strip()}{extension}"
+                / f"{str(final_name).strip()}{extension}"
             )
 
             if destination_file.exists():
