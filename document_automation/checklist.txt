@@ -3,6 +3,7 @@
 #Format: file_name|path/to/actual/folder
 file_name|Auditor
 file_name|Auditor/Appointment
+file_name|Auditor/Appointment
 file_name|Auditor/Certificate
 file_name|Auditor/Resignation
 file_name|Banking and loans

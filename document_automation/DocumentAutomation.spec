@@ -2,7 +2,7 @@
 
 
 a = Analysis(
-    ['oneshot_main.py'],
+    ['Final.py'],
     pathex=[],
     binaries=[],
     datas=[],
