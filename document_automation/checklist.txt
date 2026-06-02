@@ -1,10 +1,64 @@
-PAN Card|KYC
-Aadhaar Card|KYC
-Passport|KYC
-
-GST Certificate|Registration
-Incorporation Certificate|Registration
-
-Bank Statement|Financial
-
-Board Resolution|Legal
+#Replace file_name with actual file file_name
+#for multiple files in same folder follow the format
+#Format: file_name|path/to/actual/folder
+file_name|Auditor
+file_name|Auditor/Appointment
+file_name|Auditor/Certificate
+file_name|Auditor/Resignation
+file_name|Banking and loans
+file_name|Banking and loans/BANK STATEMENT OF ONE YEAR
+file_name|Banking and loans/CHARGE
+file_name|Banking and loans/CHARGE/Charge Documents
+file_name|Banking and loans/CHARGE/FINAL
+file_name|Banking and loans/CHARGE/Sanction Letter
+file_name|Banking and loans/MORTGAGE
+file_name|Business
+file_name|Business
+file_name|Business/BUSINESS RELATED
+file_name|Capital Structure
+file_name|Capital Structure/Changes in Authorised Capital
+file_name|Capital Structure/Changes in Paid Up Capital
+file_name|Conversion to Pvt Ltd to Ltd
+file_name|Conversion to Pvt Ltd to Ltd/INC 27
+file_name|Conversion to Pvt Ltd to Ltd/MGT14 02-12-2023
+file_name|Financials
+file_name|Financials/Audited Financials
+file_name|Financials/Restated Final
+file_name|Financials/Taxation
+file_name|Financials/Taxation/GST RETRUN
+file_name|Financials/Taxation/income tax challan
+file_name|Financials/Taxation/income tax demand
+file_name|Financials/Taxation/TDS RETRUN
+file_name|Financials/Taxation/TDS RETRUN/2021-22
+file_name|Financials/Taxation/TDS RETRUN/2022-23
+file_name|Financials/Taxation/TDS RETRUN/2023-24
+file_name|General Information
+file_name|Government Approvals
+file_name|Industry
+file_name|Insurance
+file_name|Issue Management Team
+file_name|Issue Management Team/1. Registrar
+file_name|Issue Management Team/1. Registrar/Agreement
+file_name|Issue Management Team/1. Registrar/Consent
+file_name|Issue Management Team/2. Auditor
+file_name|Land Related
+file_name|Litigation
+file_name|Management
+file_name|Management/CFO
+file_name|Management/CS
+file_name|Management/Directors
+file_name|Management/Independent Directors
+file_name|Management/New folder
+file_name|MDA
+file_name|Objects
+file_name|Promoter & Promoter Group
+file_name|Promoter & Promoter Group/Group Company
+file_name|Promoter & Promoter Group/Promoter
+file_name|Promoter & Promoter Group/Promoter group
+file_name|Risk Factors
+file_name|Secretarial Documents
+file_name|Secretarial Documents/Annual Return
+file_name|Secretarial Documents/AOA & MOA
+file_name|Secretarial Documents/Certificate of Incorporation
+file_name|Secretarial Documents/Minutes of Meetings
+file_name|Secretarial Documents/ROC Search

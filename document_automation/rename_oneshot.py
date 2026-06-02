@@ -35,6 +35,8 @@ def read_checklist():
 
             if not line:
                 continue
+            if line.startswith("#"):
+                continue
 
             document_type, folder_name = line.split("|")
 
